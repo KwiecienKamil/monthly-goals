@@ -12,24 +12,13 @@
 <body>
     <div id="app-wrapper">
         <section id="main-header">
-            <p>MON, 01.10.2025</p>
+            <p id="header-date"></p>
             <h1>Summary</h1>
         </section>
         <section class="highlighted-section">
             <div class="highlighted-section-header">October goals</div>
             <div class="flex-center goals-wrapper">
-            <div class="goal">
-                <span>Running</span>
-                <p id="first-gal-info"> 5 </p>
-            </div>
-            <div class="highlighted-section-goal">
-                <span>Push ups</span>
-                <p id="first-gal-info"> 5 </p>
-            </div>
-            <div class="highlighted-section-goal">
-                <span>Meditation</span>
-                <p id="first-gal-info"> 5 </p>
-            </div>
+            
             </div>
         </section>
         <section class="highlighted-section">
@@ -41,7 +30,13 @@
         </section>
         <section class="highlighted-section">
             <div class="highlighted-section-header">History</div>
-            <div id="history-wrapper"></div>
+            <div id="history-wrapper">
+                <div class="last-activity-wrapper">
+                    <p class="highlighted-last-activity-date">29.09.2025</p>
+                    <span id="last-activity-type">Running</span>
+                    <span id="last-activity-value">+ 1,2KM</span>
+                </div>
+            </div>
         </section>
     </div>
     <script src="./js/app..js"></script>

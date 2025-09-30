@@ -21,6 +21,8 @@
 #app-wrapper {
     background: var(--primary);
     color: white;
+    height: 100vh;
+    border: 2px solid white;
 }
 
 #main-header {
@@ -75,7 +77,7 @@
   /* Add activity */
 
 #add-activity {
-    padding: 2rem 0 2rem 0;
+    padding: 3rem 0 3rem 0;
 }
 
 #add-activity button {
@@ -85,4 +87,28 @@
     color: black;
     font-weight: 600;
     border: none;
+}
+#history-wrapper {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.last-activity-wrapper {
+    position: relative;
+    width: 50%;
+    text-align: start;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem .5rem;
+}
+
+.highlighted-last-activity-date {
+    position: absolute;
+    top: -15px;
+    background: white;
+    color: black;
 }
