@@ -112,3 +112,68 @@
     background: white;
     color: black;
 }
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .popup.hidden {
+    display: none;
+  }
+  .popup-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    min-width: 350px;
+    position: relative;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    color: black;
+  }
+  .close {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    font-size: 30px;
+    cursor: pointer;
+    color: red;
+  }
+
+.update-goal {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+.update-goal div {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    gap: .5rem;
+}
+.update-goal input{
+    width: 50px;
+    padding: 2px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.popup-plus {
+    color: var(--accent);
+    font-size: 1.2rem;
+}
+
+#save-activity-btn {
+    margin-top: 1rem;
+    padding: .5rem 2rem;
+    background: var(--accent);
+    border: none;
+    border: 1px solid black;
+}
